@@ -48,6 +48,12 @@ font-size: 32px;
 font-weight: bold;
 }
 
+.sidebar-header h1::first-letter {
+    font-size: 3rem;
+    color: #007BFF;
+    font-weight: bold;
+}
+
 .sider-nav a {
     color: white;
 }
