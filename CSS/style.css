@@ -1,0 +1,100 @@
+.container {
+    display: flex; 
+    height: 100vh;
+    width: 100%;
+}
+
+.sidebar {
+    width: 450px;
+    background-color: rgb(1, 1, 58);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.main-container {
+    flex: 1;
+    background-color: rgb(212, 213, 214);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.sidebar-content {
+    flex: 1;
+}
+
+.main-content {
+    flex: 1;
+}
+
+.user-info {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar-header h1 {
+color: white;
+margin-bottom: 40px;
+text-align: center;
+font-size: 32px;
+font-weight: bold;
+}
+
+.sider-nav a {
+    color: white;
+}
+
+.sider-nav-list  {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #01101d;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.header-section {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.header-section h3::first-letter {
+  font-size: 1.5em; 
+  color: #007BFF;   
+  font-weight: bold;
+}
+
+
+.add-button {
+    background-color: rgb(14, 3, 117);
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.header-section h3 {
+    font-size: 24px;
+}
+
+.main-header h2{
+font-size: 32px;
+margin-bottom: 20px;
+}
