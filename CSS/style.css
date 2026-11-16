@@ -110,3 +110,8 @@ align-items: center;
 font-size: 32px;
 margin-bottom: 20px;
 }
+
+.table-thead th::first-letter{
+    color: #08552b;
+    font-size: 20px;
+}
