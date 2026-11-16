@@ -58,6 +58,12 @@ font-weight: bold;
     gap: 40px;
 }
 
+.sider-nav-list a:hover {
+    color:#007BFF;
+     font-weight: bold;
+    font-size: 20px;
+}
+
 .search-bar input {
     width: 100%;
     padding: 10px;
