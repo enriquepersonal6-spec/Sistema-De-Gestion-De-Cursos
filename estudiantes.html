@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudiantes</title>
+    <link rel="stylesheet" href="/CSS/reset.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/estudiantes.css">
+</head>
+
+<body>
+    <div class="container">
+        <aside class="sidebar">
+
+            <header class="sidebar-header">
+                <h1>Menú</h1>
+            </header>
+
+            <main class="sidebar-content">
+                <nav class="sider-nav">
+                    <ul class="sider-nav-list">
+                        <li><a href="dashboard.html">Dashboard</a></li>
+                        <li><a href="cursos.html">Cursos</a></li>
+                        <li><a href="estudiantes.html">Estudiantes</a></li>
+                        <li><a href="matriculas.html">Matriculas</a></li>
+                    </ul>
+                </nav>
+            </main>
+
+            <footer class="sidebar-footer">
+                <div class="user-info">
+                    <p>Usuario</p>
+                    <p>engonzalez</p>
+                </div>
+
+                <div class="user-info">
+                    <p>Correo</p>
+                    <p>engonzaz@cesde.net</p>
+                </div>
+
+            </footer>
+
+        </aside>
+        <main class="main-container">
+
+            <header class="main-header">
+                <h2>Sistema De Gestion De Cursos</h2>
+
+                <div class="header-section">
+                    <h3>Estudiantes</h3>
+                    <button class="add-button">Agregar Estudiantes</button>
+                </div>
+
+                <search class="search-bar">
+                    <input type="text" placeholder="Buscar Estudiante..." />
+                </search>
+
+            </header>
+
+            <main class="main-content">
+                <div class="table-container">
+                    <table class="estudiantes-table">
+                        <colgroup>
+                            <col class="column-id" with="5%" />
+                            <col class="column-text" with="30%" />
+                            <col class="column-text" with="30%" />
+                            <col class="column-text" with="20%" />
+                            <col class="column-actions" with="15%" />
+
+                        </colgroup>
+                        <thead>
+                            <tr class="table-thead">
+                                <th>Id</th>
+                                <th>Nombre</th>
+                                <th>Apellido</th>
+                                <th>Correo</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td class="column-id">1</td>
+                                <td class="column-text">Enrique</td>
+                                <td class="column-text">González</td>
+                                <td class="column-text">engonzaz@cesde.net</td>
+                                <td class="column-actions">
+                                    <button class="edit-buttom">Editar</button>
+                                    <button class="delete-buttom">Eliminar</button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="column-id">2</td>
+                                <td class="column-text">Juan</td>
+                                <td class="column-text">Pérez</td>
+                                <td class="column-text">juanperez@cesde.net</td>
+                                <td class="column-actions">
+                                    <button class="edit-buttom">Editar</button>
+                                    <button class="delete-buttom">Eliminar</button>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td class="column-id">3</td>
+                                <td class="column-text">Maria</td>
+                                <td class="column-text">Gomez</td>
+                                <td class="column-text">mariaGomez@cesde.net</td>
+                                <td class="column-actions">
+                                    <button class="edit-buttom">Editar</button>
+                                    <button class="delete-buttom">Eliminar</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                </div>
+                </table>
+
+            </main>
+
+            <footer class="main-footer">
+                <p>©2026 Sistema De Gestion De Cursos. Todos Los Derechos De Autor.</p>
+                <p>Diseñado por: Enrique Gonzalez.</p>
+            </footer>
+
+        </main>
+    </div>
+</body>
+
+</html>
